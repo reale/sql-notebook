@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# requires python-sqlparse (https://github.com/andialbrecht/sqlparse)
+
+dir="${1:-chapters/sql}"
+
+find "$dir" -type f -name '*.sql' | while read file
+do
+        cp -p "$file" "$file~"
+        cp -p "$file" "$file~~"
+        sqlformat -ars -i lower -k upper "$file~~" > "$file"
+        rm -r "$file~~"
+        # sanitize with trailing EOF (https://unix.stackexchange.com/questions/31947/)
+        tail -n1 "$file" | read -r _ || echo >> "$file"
+done
