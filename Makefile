@@ -12,6 +12,7 @@ PROCESSED := $(SOURCES:chapters/%.md=manuscript/%.md)
 all: $(PROCESSED)
 
 manuscript/%.md: chapters/%.md $(SQL)
+	mkdir -p manuscript
 	embedmd $< | sed '/^<!-- vim:/d' > $@
 
 clean:
