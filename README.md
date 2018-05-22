@@ -1,5 +1,7 @@
 # Strange SQL
 
+[![Build Status](https://travis-ci.org/robertoreale/strange-sql.svg?branch=master)](https://travis-ci.org/robertoreale/strange-sql)
+
 This repository contains a collection of *strange* SQL snippets. The following RDBMS are covered:
 
 * Oracle Database
