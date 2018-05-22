@@ -1,4 +1,6 @@
-## Oracle Database
+# Oracle Database
+
+## String Manipulation
 
 ### Count the client sessions with a FQDN
 

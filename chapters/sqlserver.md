@@ -1,4 +1,6 @@
-## SQL Server
+# SQL Server
+
+## Lorem Ipsum
 
 ### Lorem Ipsum
 
