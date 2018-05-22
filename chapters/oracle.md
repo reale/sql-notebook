@@ -8,6 +8,10 @@ Assume a FQDN has the form `N_1.N_2.....N_t`, where `t > 1` and each `N_i` can c
 
 [embedmd]:# (sql/count-fqdn-client-hostnames.sql)
 
+### Calculate the edit (or Levenshtein) distance between a table name and the names of its dependent indexes
+
+[embedmd]:# (sql/levenshtein-table-indexes.sql)
+
 
 ## Numerical Recipes
 
