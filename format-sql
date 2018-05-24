@@ -12,5 +12,5 @@ do
         sqlformat -ars -i lower -k upper "$file~" > "$file"
         rm -r "$file~"
         # sanitize with trailing EOF (https://unix.stackexchange.com/questions/31947/)
-        echo tail -n1 "$file" | read -r _ || echo >> "$file"
+        tail -n1 "$file" | read -r _ || echo >> "$file"
 done
