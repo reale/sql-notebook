@@ -17,3 +17,5 @@ manuscript/%.md: chapters/%.md $(SQL)
 
 clean:
 	rm -fr manuscript
+
+# vim:ft=make:
