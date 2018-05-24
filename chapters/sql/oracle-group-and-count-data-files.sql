@@ -1,6 +1,6 @@
 WITH df AS
 
-        ( SELECT tablespace_name,
+        (SELECT tablespace_name,
 
                regexp_replace(file_name, '/[^/]+$', '') dirname,
 
