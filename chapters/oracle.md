@@ -31,6 +31,10 @@ Assume a Unix filesystem, do not follow symlinks. Moreover, generate subtotals f
 
 ## Data Analytics
 
+### Calculate statistics about the redo log switches
+
+[embedmd]:# (sql/oracle-log-switch-statistics.sql)
+
 ### Rank all the tables in the system based on their cardinality
 
 We partition the result set by tablespace.
