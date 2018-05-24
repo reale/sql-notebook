@@ -3,9 +3,11 @@
 # requires python-sqlparse (https://github.com/andialbrecht/sqlparse)
 
 dir="${1:-chapters/sql}"
+ECHO=echo
 
 find "$dir" -type f -name '*.sql' | while read file
 do
+	$ECHO "Formatting $file"
         cp -p "$file" "$file~"
         sqlformat -ars -i lower -k upper "$file~" > "$file"
         rm -r "$file~"
