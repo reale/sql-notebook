@@ -26,5 +26,11 @@ Assume a FQDN has the form `N_1.N_2.....N_t`, where `t > 1` and each `N_i` can c
 
 [embedmd]:# (sql/tablespace-growth-forecast.sql)
 
+### Rank all the tables in the system based on their cardinality
+
+We partition the result set by tablespace.
+
+[embedmd]:# (sql/rank-tables-by-cardinality.sql)
+
 
 <!-- vim: set fenc=utf-8 spell spl=en ts=4 sw=4 et filetype=markdown : -->
