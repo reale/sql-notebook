@@ -6,8 +6,8 @@ SELECT tablespace_name,
 
        num_rows,
 
-       rank() OVER ( PARTITION BY tablespace_name
-                    ORDER BY num_rows DESC ) AS rank
+       rank() OVER (PARTITION BY tablespace_name
+                    ORDER BY num_rows DESC) AS rank
 
   FROM dba_tables
 
