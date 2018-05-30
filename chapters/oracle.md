@@ -39,4 +39,41 @@ By sorting the object types by the average name length of their instances, we fi
 [embedmd]:# (sql/oracle-tablespace-growth-forecast.sql)
 
 
+## XML Database 101
+
+### Return the total number of installed patches
+
+[embedmd]:# (sql/oracle-count-installed-patches.sql)
+
+### List user passwords (hashed, of course...)
+
+From 11g onwards, password hashes do not appear in `dba_users` anymore. Of course they are still visible in `sys.user$`, but we can do better...
+
+[embedmd]:# (sql/oracle-list-user-passwords.sql)
+
+### Return patch details such as patch and inventory location
+
+[embedmd]:# (sql/oracle-get-patch-details.sql)
+
+*Cf.* the script at https://github.com/xtender/xt_scripts/blob/master/opatch/info.sql.
+
+### Show patch inventory
+
+[embedmd]:# (sql/oracle-show-patch-inventory.sql)
+
+*Cf.* the script at https://github.com/xtender/xt_scripts/blob/master/opatch/lsinventory.sql.
+
+### Show patch inventory, part 2
+
+[embedmd]:# (sql/oracle-show-patch-inventory-2.sql)
+
+*Cf.* the script at https://github.com/xtender/xt_scripts/blob/master/opatch/patches.sql.
+
+### Show bugs fixed by each installed patch
+
+[embedmd]:# (sql/oracle-show-bugs-fixed.sql)
+
+*Cf.* the script at https://github.com/xtender/xt_scripts/blob/master/opatch/bug_fixed.sql.
+
+
 <!-- vim: set fenc=utf-8 spell spl=en ts=4 sw=4 et filetype=markdown : -->
