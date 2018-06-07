@@ -5,7 +5,7 @@
 This repository contains a collection of *strange* SQL snippets. The following RDBMS are covered:
 
 * [Oracle Database](https://github.com/robertoreale/strange-sql/blob/book/manuscript/oracle.md)
-* SQL Server
+* [SQL Server](https://github.com/robertoreale/strange-sql/blob/book/manuscript/sqlserver.md)
 
 ## How to contribute
 
