@@ -76,4 +76,29 @@ From 11g onwards, password hashes do not appear in `dba_users` anymore. Of cours
 *Cf.* the script at https://github.com/xtender/xt_scripts/blob/master/opatch/bug_fixed.sql.
 
 
+## Performance
+
+### Calculate a fragmentation factor for tablespaces
+
+The fragmentation column gives an overall score with respect to how badly a
+tablespace is fragmented; a 100% score indicates no fragmentation at all.
+
+It is calculated according to the following formula:
+
+                ___________      
+              \/max(blocks)      
+                         
+    1 - ------------------------ 
+                         
+                    =====        
+         4_______   \            
+        \/blocks##    >    blocks 
+                    /            
+                    =====        
+ 
+[embedmd]:# (sql/oracle-index-fragmentation-factor.sql)
+
+*Cf.* the book *Oracle Performance Troubleshooting*, by Robin Schumacher.
+
+
 <!-- vim: set fenc=utf-8 spell spl=en ts=4 sw=4 et filetype=markdown : -->
