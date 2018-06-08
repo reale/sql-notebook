@@ -101,4 +101,11 @@ It is calculated according to the following formula:
 *Cf.* the book *Oracle Performance Troubleshooting*, by Robin Schumacher.
 
 
+## Miscellanea
+
+### Get local host name and local IP address of the database server
+
+[embedmd]:# (sql/oracle-host-name-ip-address-db-server.sql)
+
+
 <!-- vim: set fenc=utf-8 spell spl=en ts=4 sw=4 et filetype=markdown : -->
