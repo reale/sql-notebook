@@ -20,6 +20,15 @@ Assume a FQDN has the form `N_1.N_2.....N_t`, where `t > 1` and each `N_i` can c
 [embedmd]:# (sql/oracle-sum-of-geometric-series.sql)
 
 
+## Grouping and Reporting
+
+### Count the data files for each tablespaces and for each filesystem location
+
+Assume a Unix filesystem, do not follow symlinks. Moreover, generate subtotals for each of the two dimensions (*scil*. tablespace and filesystem location).
+ 
+[embedmd]:# (sql/oracle-group-and-count-data-files.sql)
+
+
 ## Data Analytics
 
 ### Rank all the tables in the system based on their cardinality
