@@ -52,6 +52,15 @@ By sorting the object types by the average name length of their instances, we fi
 [embedmd]:# (sql/oracle-tablespace-growth-forecast.sql)
 
 
+## The MODEL clause
+
+### Generate the even integers between -100 and 100, inclusive
+
+[embedmd]# (sql/oracle-model-row-generator.sql)
+
+*Cf.*: http://www.orafaq.com/wiki/Oracle_Row_Generator_Techniques.
+
+
 ## XML Database 101
 
 ### Return the total number of installed patches
