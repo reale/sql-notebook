@@ -1,11 +1,11 @@
 # Strange SQL
 
-[![Build Status](https://travis-ci.org/robertoreale/strange-sql.svg?branch=master)](https://travis-ci.org/robertoreale/strange-sql)
+[![Build Status](https://travis-ci.org/reale/strange-sql.svg?branch=master)](https://travis-ci.org/reale/strange-sql)
 
 This repository contains a collection of *strange* SQL snippets. The following RDBMS are covered:
 
-* [Oracle Database](https://github.com/robertoreale/strange-sql/blob/book/manuscript/oracle.md)
-* [SQL Server](https://github.com/robertoreale/strange-sql/blob/book/manuscript/sqlserver.md)
+* [Oracle Database](https://github.com/reale/strange-sql/blob/book/manuscript/oracle.md)
+* [SQL Server](https://github.com/reale/strange-sql/blob/book/manuscript/sqlserver.md)
 
 ## How to contribute
 
@@ -13,8 +13,8 @@ Please feel free to fork this repository if there are any edits you should love 
 
 ## Branches
 
-* the [master](https://github.com/robertoreale/strange-sql) branch is the default branch
-* the [book](https://github.com/robertoreale/strange-sql/tree/book) branch contains an intermediate Markdown format
+* the [master](https://github.com/reale/strange-sql) branch is the default branch
+* the [book](https://github.com/reale/strange-sql/tree/book) branch contains an intermediate Markdown format
 
 ## License notice
 
