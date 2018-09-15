@@ -98,7 +98,11 @@ From 11g onwards, password hashes do not appear in `dba_users` anymore. Of cours
 *Cf.* the script at https://github.com/xtender/xt_scripts/blob/master/opatch/bug_fixed.sql.
 
 
-## Performance
+## Décroissance
+
+### Calculate the high-water and excess allocated size for datafiles
+
+[embedmd]:# (sql/oracle-hwm-excess-allocated-size.sql)
 
 ### Calculate a fragmentation factor for tablespaces
 
