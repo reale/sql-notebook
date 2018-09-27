@@ -133,5 +133,11 @@ It is calculated according to the following formula:
 
 [embedmd]:# (sql/oracle-host-name-ip-address-db-server.sql)
 
+### Count number of segments for each order of magnitude
+
+Note: IEC prefixes are used.
+
+[embedmd]:# (sql/oracle-count-segments-by-order-of-magnitude.sql)
+
 
 <!-- vim: set fenc=utf-8 spell spl=en ts=4 sw=4 et filetype=markdown : -->
