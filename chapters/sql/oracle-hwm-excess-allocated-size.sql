@@ -1,6 +1,6 @@
 WITH pars AS
 
-        ( -- block size in MiB
+        (-- block size in MiB
  SELECT to_number(value) / 1024 / 1024 AS block_size_mib
 
           FROM -- no need to use gv$parameter here
@@ -22,7 +22,7 @@ SELECT file_name,
 
   JOIN
 
-        ( SELECT file_id,
+        (SELECT file_id,
 
                max(block_id + blocks - 1) AS hwm
 
