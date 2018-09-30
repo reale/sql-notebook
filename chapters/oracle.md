@@ -56,9 +56,9 @@ By sorting the object types by the average name length of their instances, we fi
 
 ### Generate the even integers between -100 and 100, inclusive
 
-[embedmd]# (sql/oracle-model-row-generator.sql)
+[embedmd]:# (sql/oracle-model-row-generator.sql)
 
-*Cf.*: http://www.orafaq.com/wiki/Oracle_Row_Generator_Techniques.
+*Cf.* http://www.orafaq.com/wiki/Oracle_Row_Generator_Techniques.
 
 
 ## Time is a Tyrant
@@ -128,7 +128,7 @@ From 11g onwards, password hashes do not appear in `dba_users` anymore. Of cours
 
 [embedmd]:# (sql/oracle-show-bugs-fixed.sql)
 
-*Cf.* the script at https://github.com/xtender/xt_scripts/blob/master/opatch/bug_fixed.sql.
+*Cf.* the code at https://github.com/xtender/xt_scripts/blob/master/opatch/bug_fixed.sql.
 
 
 ## Décroissance
