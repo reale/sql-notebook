@@ -61,6 +61,39 @@ By sorting the object types by the average name length of their instances, we fi
 *Cf.*: http://www.orafaq.com/wiki/Oracle_Row_Generator_Techniques.
 
 
+## Time is a Tyrant
+
+### Show the first and last day of the current month
+
+[embedmd]:# (sql/oracle-first-and-last-day-current-month.sql)
+
+### Show the first and last day of the current year
+
+[embedmd]:# (sql/oracle-first-and-last-day-current-year.sql)
+
+*Cf.* the code at http://viralpatel.net/blogs/useful-oracle-queries/.
+
+### Show the maximum possible date
+
+December 31, 9999 CE, one second to midnight.
+
+[embedmd]:# (sql/oracle-max-possible-date.sql)
+
+*Cf.* the code at http://stackoverflow.com/questions/687510/.
+
+### Show the minimum possible date
+
+[embedmd]:# (sql/oracle-min-possible-date.sql)
+
+*Cf.* the code at http://stackoverflow.com/questions/687510/, Oracle bug 106242.
+
+### Calculate the calendar date of Easter, from 1583 to 2999
+
+[embedmd]:# (sql/oracle-easter.sql)
+
+*Cf.* the code at http://www.adp-gmbh.ch/ora/plsql/calendar.html.
+
+
 ## XML Database 101
 
 ### Return the total number of installed patches
