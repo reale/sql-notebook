@@ -172,5 +172,9 @@ Note: IEC prefixes are used.
 
 [embedmd]:# (sql/oracle-count-segments-by-order-of-magnitude.sql)
 
+### Display the findings discovered by all advisors in the database
+
+[embedmd]:# (sql/oracle-all-advisory-findings.sql)
+
 
 <!-- vim: set fenc=utf-8 spell spl=en ts=4 sw=4 et filetype=markdown : -->
