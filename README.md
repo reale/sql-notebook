@@ -1,6 +1,6 @@
 # Strange SQL
 
-[![Build Status](https://travis-ci.org/reale/strange-sql.svg?branch=master)](https://travis-ci.org/reale/strange-sql)
+[![Build Status](https://travis-ci.com/reale/strange-sql.svg?branch=master)](https://travis-ci.com/reale/strange-sql)
 
 This repository contains a collection of *strange* SQL snippets. The following RDBMS are covered:
 
