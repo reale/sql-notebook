@@ -1,4 +1,4 @@
-# Strange SQL
+# SQL Snippets
 
 [![Build Status](https://travis-ci.com/reale/strange-sql.svg?branch=master)](https://travis-ci.com/reale/strange-sql)
 
