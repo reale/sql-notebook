@@ -1,8 +1,8 @@
-# SQL Snippets
+# SQL Notebook
 
 [![Build Status](https://travis-ci.com/reale/strange-sql.svg?branch=master)](https://travis-ci.com/reale/strange-sql)
 
-This repository contains a collection of *strange* SQL snippets. The following RDBMS are covered:
+This repository contains a collection of SQL snippets. The following RDBMS are covered:
 
 * [Oracle Database](https://github.com/reale/strange-sql/blob/book/manuscript/oracle.md)
 * [SQL Server](https://github.com/reale/strange-sql/blob/book/manuscript/sqlserver.md)
